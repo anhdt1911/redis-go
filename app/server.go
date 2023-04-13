@@ -13,7 +13,7 @@ func main() {
 
 	// Uncomment this block to pass the first stage
 	//
-	l, err := net.Listen("tcp", "0.0.0.0:6380")
+	l, err := net.Listen("tcp", "0.0.0.0:6379")
 	if err != nil {
 		fmt.Println("Failed to bind to port 6380")
 		fmt.Println(err)
